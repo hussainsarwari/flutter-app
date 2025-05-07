@@ -17,7 +17,7 @@ A beginner-friendly Flutter open-source project designed to help developers **pr
 ## 📦 Getting Started
 
 ```bash
-git clone https://github.com/your-username/flutter-practice-project.git
+git clone https://github.com/hussainsarwari/flutter-app.git
 cd flutter-practice-project
 flutter pub get
 flutter run
