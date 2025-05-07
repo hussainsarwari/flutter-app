@@ -1,16 +1,23 @@
-# test_1
+# Flutter Open Source Project for Practice & Contribution
 
-A new Flutter project.
+A beginner-friendly Flutter open-source project designed to help developers **practice Flutter** and learn how to **contribute to open-source projects**.
 
-## Getting Started
+## 🚀 Project Goals
 
-This project is a starting point for a Flutter application.
+- Help new contributors learn Flutter
+- Teach open-source collaboration (issues, pull requests, forks)
+- Provide simple, structured tasks for hands-on experience
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Features (In Progress)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Simple UI screens 
+- Reusable widgets
+- State management example
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Getting Started
+
+```bash
+git clone https://github.com/your-username/flutter-practice-project.git
+cd flutter-practice-project
+flutter pub get
+flutter run
