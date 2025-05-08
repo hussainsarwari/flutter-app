@@ -15,14 +15,15 @@ class Nextpage extends StatelessWidget {
         ),),
         backgroundColor: const Color.fromARGB(255, 46, 42, 58),
       ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            Navigator.pushNamed(context, '/profile');
-          },
-          child: const Text("Go to Profile"),
+      body:
+      Center(
+        child: Row(
+          children: [
+            Expanded(child: Image(image: AssetImage('images/app2/images/dice1.png'),)),
+            Expanded(child: Image(image: AssetImage('images/app2/images/dice1.png'),))
+          ],
         ),
-      ),
+      )
     );
   }
 }
