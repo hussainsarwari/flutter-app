@@ -45,6 +45,7 @@ class Nextpage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 OutlinedButton(
+                  
                   onPressed: () {},
                   child: Text(
                     "Previous page",
