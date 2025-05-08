@@ -8,10 +8,10 @@ class Nextpage extends StatefulWidget {
 }
 
 class _NextpageState extends State<Nextpage> {
+  var leftCounter = 3;
+  var rightCounter = 3;
   @override
   Widget build(BuildContext context) {
-    var leftCounter = 3;
-    var rightCounter = 3;
     return Scaffold(
       appBar: AppBar(
         title: const Text(
