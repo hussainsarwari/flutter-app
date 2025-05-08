@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class Nextpage extends StatelessWidget {
   const Nextpage({super.key});
 
@@ -8,22 +7,62 @@ class Nextpage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Next 2",style: TextStyle(
-          color: Colors.white,
-          fontSize: 20.0,
-          fontWeight: FontWeight.bold,
-        ),),
+        title: const Text(
+          "Next 2",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.0,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         backgroundColor: const Color.fromARGB(255, 46, 42, 58),
       ),
-      body:
-      Center(
-        child: Row(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Expanded(child: Image(image: AssetImage('images/app2/images/dice1.png'),)),
-            Expanded(child: Image(image: AssetImage('images/app2/images/dice1.png'),))
+            Row(
+              children: [
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Image(
+                      image: AssetImage('images/app2/images/dice1.png'),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Image(
+                      image: AssetImage('images/app2/images/dice1.png'),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                OutlinedButton(
+                  onPressed: () {},
+                  child: Text(
+                    "Previous page",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+                OutlinedButton(
+                  onPressed: () {},
+                  child: Text(
+                    "Next page",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
-      )
+      ),
     );
   }
 }
