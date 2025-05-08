@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Nextpage extends StatelessWidget {
-  var leftCounter = 1;
+  var leftCounter = 2;
 
   @override
   Widget build(BuildContext context) {
