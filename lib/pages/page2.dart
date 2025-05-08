@@ -8,8 +8,8 @@ class Nextpage extends StatefulWidget {
 }
 
 class _NextpageState extends State<Nextpage> {
-  var leftCounter = 3;
-  var rightCounter = 4;
+  var leftCounter = 1;
+  var rightCounter = 1;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,7 +46,11 @@ class _NextpageState extends State<Nextpage> {
                 ),
                 Expanded(
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      setState() {
+                        rightCounter++;
+                      }
+                    },
                     child: Image(
                       image: AssetImage(
                         'images/app2/images/dice$rightCounter.png',
