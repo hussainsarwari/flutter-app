@@ -27,9 +27,7 @@ class Nextpage extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: TextButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, '/profile');
-                      },
+                      onPressed: () {},
                       child: Image(
                         image: AssetImage('images/app2/images/dice1.png'),
                       ),
@@ -39,8 +37,11 @@ class Nextpage extends StatelessWidget {
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Image(
-                      image: AssetImage('images/app2/images/dice1.png'),
+                    child: TextButton(
+                      onPressed: () {},
+                      child: Image(
+                        image: AssetImage('images/app2/images/dice1.png'),
+                      ),
                     ),
                   ),
                 ),
