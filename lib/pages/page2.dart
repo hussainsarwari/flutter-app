@@ -26,8 +26,13 @@ class Nextpage extends StatelessWidget {
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Image(
-                      image: AssetImage('images/app2/images/dice1.png'),
+                    child: TextButton(
+                      onPressed: () {
+                        print("hello world");
+                      },
+                      child: Image(
+                        image: AssetImage('images/app2/images/dice1.png'),
+                      ),
                     ),
                   ),
                 ),
