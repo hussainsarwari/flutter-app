@@ -32,7 +32,11 @@ class _NextpageState extends State<Nextpage> {
               children: [
                 Expanded(
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      setState(() {
+                        leftCounter++;
+                      });
+                    },
                     child: Image(
                       image: AssetImage(
                         'images/app2/images/dice$leftCounter.png',
