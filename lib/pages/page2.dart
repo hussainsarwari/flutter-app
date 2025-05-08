@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Nextpage extends StatelessWidget {
-  // const Nextpage({super.key});
+  var leftCounter = 1;
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,9 @@ class Nextpage extends StatelessWidget {
                   child: TextButton(
                     onPressed: () {},
                     child: Image(
-                      image: AssetImage('images/app2/images/dice1.png'),
+                      image: AssetImage(
+                        'images/app2/images/dice$leftCounter.png',
+                      ),
                     ),
                   ),
                 ),
