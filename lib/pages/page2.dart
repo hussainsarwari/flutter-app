@@ -53,7 +53,7 @@ class Nextpage extends StatelessWidget {
                   )
                   ,
                   onPressed: () {
-                    Navigator.pushNamed(context, routeName)
+                    Navigator.pushNamed(context, '')
                   },
                   child: Text(
                     "Previous page",
