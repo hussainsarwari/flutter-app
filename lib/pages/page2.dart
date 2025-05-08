@@ -53,7 +53,7 @@ class Nextpage extends StatelessWidget {
                   )
                   ,
                   onPressed: () {
-                    Navigator.pu
+                    Navigator.pushN
                   },
                   child: Text(
                     "Previous page",
