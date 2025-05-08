@@ -52,7 +52,9 @@ class Nextpage extends StatelessWidget {
                     )
                   )
                   ,
-                  onPressed: () {},
+                  onPressed: () {
+                    
+                  },
                   child: Text(
                     "Previous page",
                     style: TextStyle(color: Colors.white),
