@@ -28,7 +28,7 @@ class Nextpage extends StatelessWidget {
                     padding: const EdgeInsets.all(8.0),
                     child: TextButton(
                       onPressed: () {
-                        print("hello world");
+                        Navigator.pushNamed(context, '/profile');
                       },
                       child: Image(
                         image: AssetImage('images/app2/images/dice1.png'),
