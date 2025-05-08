@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
         '/profile': (context) => const Profile(),
         '/Nextpage': (context)=> const Nextpage(),
       },
+      
     );
   }
 }
