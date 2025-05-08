@@ -45,13 +45,11 @@ class Nextpage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 OutlinedButton(
-                   
                   style: OutlinedButton.styleFrom(
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10.0)
-                    )
-                  )
-                  ,
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                  ),
                   onPressed: () {
                     Navigator.pushNamed(context, '/profile');
                   },
@@ -60,14 +58,13 @@ class Nextpage extends StatelessWidget {
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
-                const SizedBox(width: 20.0,), 
+                const SizedBox(width: 20.0),
                 OutlinedButton(
                   style: OutlinedButton.styleFrom(
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10.0)
-                    )
-                  )
-                  ,
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                  ),
                   onPressed: () {},
                   child: Text(
                     "Next page",
