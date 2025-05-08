@@ -87,7 +87,9 @@ class _NextpageState extends State<Nextpage> {
                       borderRadius: BorderRadius.circular(10.0),
                     ),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/App3');
+                  },
                   child: Text(
                     "Next page",
                     style: TextStyle(color: Colors.white),
