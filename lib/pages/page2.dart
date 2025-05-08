@@ -47,9 +47,9 @@ class _NextpageState extends State<Nextpage> {
                 Expanded(
                   child: TextButton(
                     onPressed: () {
-                      setState() {
+                      setState(() {
                         rightCounter++;
-                      }
+                      });
                     },
                     child: Image(
                       image: AssetImage(
