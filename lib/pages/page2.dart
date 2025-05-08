@@ -59,9 +59,11 @@ class Nextpage extends StatelessWidget {
                   )
                   ,
                   onPressed: () {},
-                  child: Text(
-                    "Next page",
-                    style: TextStyle(color: Colors.white),
+                  child: SizedBox(
+                    child: Text(
+                      "Next page",
+                      style: TextStyle(color: Colors.white),
+                    ),
                   ),
                 ),
               ],
