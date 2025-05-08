@@ -4,6 +4,7 @@ class Nextpage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var leftCounter = 3;
+    var rightCounter = 3;
     return Scaffold(
       appBar: AppBar(
         title: const Text(
@@ -36,7 +37,9 @@ class Nextpage extends StatelessWidget {
                   child: TextButton(
                     onPressed: () {},
                     child: Image(
-                      image: AssetImage('images/app2/images/dice1.png'),
+                      image: AssetImage(
+                        'images/app2/images/dice$rightCounter.png',
+                      ),
                     ),
                   ),
                 ),
