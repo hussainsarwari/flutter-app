@@ -54,7 +54,7 @@ class Nextpage extends StatelessWidget {
                 OutlinedButton(
                   style: OutlinedButton.styleFrom(
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(1.0)
+                      borderRadius: BorderRadius.circular(10.0)
                     )
                   )
                   ,
