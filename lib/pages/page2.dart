@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Nextpage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var leftCounter = 2;
+    var leftCounter = 3;
     return Scaffold(
       appBar: AppBar(
         title: const Text(
