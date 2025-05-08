@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:ui';
 
-
 class Profile extends StatelessWidget {
   const Profile({super.key});
-
 
   @override
   Widget build(BuildContext context) {
@@ -15,11 +13,7 @@ class Profile extends StatelessWidget {
         ),
         backgroundColor: const Color.fromARGB(255, 46, 42, 58),
       ),
-      body:
-      
-      
-       SafeArea(
-        
+      body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

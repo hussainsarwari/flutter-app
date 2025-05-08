@@ -52,6 +52,12 @@ class Nextpage extends StatelessWidget {
                   ),
                 ),
                 OutlinedButton(
+                  style: OutlinedButton.styleFrom(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(1.0)
+                    )
+                  )
+                  ,
                   onPressed: () {},
                   child: Text(
                     "Next page",
