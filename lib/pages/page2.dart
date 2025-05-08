@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 class Nextpage extends StatefulWidget {
   const Nextpage({super.key});
@@ -15,7 +16,7 @@ class _NextpageState extends State<Nextpage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "Next 2",
+          "game app",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.0,
@@ -34,7 +35,8 @@ class _NextpageState extends State<Nextpage> {
                   child: TextButton(
                     onPressed: () {
                       setState(() {
-                        leftCounter++;
+                        rightCounter = Random().nextInt(6) + 1;
+                        leftCounter = Random().nextInt(6) + 1;
                       });
                     },
                     child: Image(
@@ -48,7 +50,8 @@ class _NextpageState extends State<Nextpage> {
                   child: TextButton(
                     onPressed: () {
                       setState(() {
-                        rightCounter++;
+                        rightCounter = Random().nextInt(6) + 1;
+                        leftCounter = Random().nextInt(6) + 1;
                       });
                     },
                     child: Image(
