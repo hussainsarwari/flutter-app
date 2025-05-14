@@ -4,5 +4,5 @@ class Questions {
   Questions({q,  a}) {
     question = q;
     answers = a;
-  }
+  };
 }
