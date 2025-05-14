@@ -66,7 +66,7 @@ class _App3State extends State<App3> {
                     onPressed: () {
                       setState((){
                         questionIndex ++;
-                        if(question)
+                        if(questionIndex)
                       })
                     },
                     style: ElevatedButton.styleFrom(
