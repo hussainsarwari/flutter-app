@@ -46,7 +46,7 @@ class _App3State extends State<App3> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      questionIndex++;
+                      questionIndex;
                       if (questionIndex >= questions.length) {
                         questionIndex = 0;
                       }
