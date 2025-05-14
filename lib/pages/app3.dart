@@ -1,4 +1,4 @@
-import './';
+import './components/';
 import 'package:flutter/material.dart';
 
 class App3 extends StatefulWidget {
