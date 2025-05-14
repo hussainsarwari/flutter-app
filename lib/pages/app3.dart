@@ -50,6 +50,7 @@ class _App3State extends State<App3> {
                       if(currentAnswer){
                         icons.add(Icon(Icons.check,color:Colors.green))
                       }
+                      else
                       setState(() {
                         questionIndex++;
 
