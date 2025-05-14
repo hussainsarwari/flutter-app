@@ -44,7 +44,7 @@ class _App3State extends State<App3> {
                       setState(() {
                         questionIndex++;
 
-                        if (questionIndex >= brain.) {
+                        if (questionIndex >= brain.getquestionLength()) {
                           questionIndex = 0;
                           icons.clear();
                         }
