@@ -22,7 +22,13 @@ class _App3State extends State<App3> {
     "Is Flutter open-source?",
   ];
   int questionIndex = 0;
-  List<bool
+  List<bool> answers = [
+    true,
+    true,
+    true,
+    false,
+    true,
+  ];
 
   @override
   Widget build(BuildContext context) {
