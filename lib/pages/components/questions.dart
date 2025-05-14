@@ -2,7 +2,7 @@ class Questions {
   String question;
   bool answers;
   Questions({required q, required a}) {
-    thisquestion = q;
+    this.question = q;
     answers = a;
   }
 }
