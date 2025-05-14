@@ -19,7 +19,7 @@ class _App3State extends State<App3> {
   ];
   int questionIndex = 0;
   List<bool> answers = [true, true, true, false, true];
-  List
+  List<
   @override
   Widget build(BuildContext context) {
     return Scaffold(
