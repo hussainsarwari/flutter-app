@@ -7,7 +7,7 @@ class Brain {
     Questions(question: "Is Flutter only for mobile apps?", answers: false),
     Questions(question: "Is Flutter open-source?", answers: true),
   ];
-  int _questionIndex = 0;
+  int _ = 0;
 
   getQuestion(){
     return _questionList[_questionIndex].question;
