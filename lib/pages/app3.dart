@@ -52,7 +52,7 @@ class _App3State extends State<App3> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      bool c
+                      bool cu
                       setState(() {
                         questionIndex++;
                         if (questionIndex >= questions.length) {
