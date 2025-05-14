@@ -9,7 +9,7 @@ class Brain {
   ];
  
 
-  tring getQuestion(questionIndex){
+  String getQuestion(questionIndex){
     return _questionList[questionIndex].question;
   }
   bool getAnswer(questionIndex){
