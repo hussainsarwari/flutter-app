@@ -14,7 +14,7 @@ class _App3State extends State<App3> {
       Icon(Icons.check, color: Colors.green),
       Icon(Icons.close, color: Colors.red),
     ];
-    List<String> questions=[
+    List<String> questions = [
       "Is Flutter a UI toolkit?",
       "Is Dart a programming language?",
       "Is Flutter used for web development?",
