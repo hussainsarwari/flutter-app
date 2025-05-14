@@ -9,7 +9,7 @@ class Brain {
   ];
  
 
-  getQuestion(){
+  getQuestion(questionIndex){
     return _questionList[_questionIndex].question;
   }
   getAnswer(){
