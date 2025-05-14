@@ -21,7 +21,7 @@ class _App3State extends State<App3> {
       "Is Flutter only for mobile apps?",
       "Is Flutter open-source?",
     ];
-    int questionIndex = 0;
+    int questionIndex = 1;
    
   
   @override
