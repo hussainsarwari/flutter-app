@@ -32,8 +32,9 @@ class _App3State extends State<App3> {
             children: [
               const SizedBox(height: 20.0),
               Text(
-                questions[questionIndex]
-                , style: TextStyle(color: Colors.white)),
+                questions[questionIndex],
+                style: TextStyle(color: Colors.white),
+              ),
 
               const SizedBox(height: 20.0),
               Row(
@@ -42,7 +43,7 @@ class _App3State extends State<App3> {
                   ElevatedButton(
                     onPressed: () {
                       setState(() {
-                        questionIndex+1
+                        questionIndex + 1;
                       });
                     },
                     style: ElevatedButton.styleFrom(
