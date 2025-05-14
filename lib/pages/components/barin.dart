@@ -8,5 +8,5 @@ class Brain {
     Questions(question: "Is Flutter open-source?", answers: true),
   ];
 
-  getq
+  ge
 }
