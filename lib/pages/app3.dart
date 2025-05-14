@@ -22,13 +22,7 @@ class _App3State extends State<App3> {
     "Is Flutter open-source?",
   ];
   int questionIndex = 0;
-  List<bool> answers = [
-    true,
-    true,
-    true,
-    false,
-    true,
-  ];
+  List<bool> answers = [true, true, true, false, true];
 
   @override
   Widget build(BuildContext context) {
@@ -52,7 +46,7 @@ class _App3State extends State<App3> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      bool currentAnswer =answers[questionIndex];
+                      bool currentAnswer = answers[questionIndex];
                       setState(() {
                         questionIndex++;
                         if (questionIndex >= questions.length) {
