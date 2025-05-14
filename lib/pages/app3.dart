@@ -10,9 +10,9 @@ class App3 extends StatefulWidget {
 
 class _App3State extends State<App3> {
   List<Icon> icons = [];
- 
+
   int questionIndex = 0;
-  Brain brain=Brain();
+  Brain brain = Brain();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
