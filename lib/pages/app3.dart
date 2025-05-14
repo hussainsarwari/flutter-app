@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 
 class App3 extends StatefulWidget {
@@ -42,7 +44,7 @@ class _App3State extends State<App3> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      lo
+                      log(message)
                       questionIndex++;
                       if (questionIndex >= questions.length) {
                         questionIndex = 0;
