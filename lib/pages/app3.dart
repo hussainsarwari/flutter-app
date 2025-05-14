@@ -40,14 +40,7 @@ class _App3State extends State<App3> {
                       } else {
                         icons.add(Icon(Icons.close, color: Colors.red));
                       }
-                      setState(() {
-                        questionIndex++;
-
-                        if (questionIndex >= brain.questionList.length) {
-                          questionIndex = 0;
-                          icons.clear();
-                        }
-                      });
+                      
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.green,
