@@ -55,7 +55,7 @@ class _App3State extends State<App3> {
 
                         if (questionIndex >= questions.length) {
                           questionIndex = 0;
-                          ه
+                          
                         }
                       });
                     },
