@@ -14,7 +14,7 @@ class _App3State extends State<App3> {
       Icon(Icons.check, color: Colors.green),
       Icon(Icons.close, color: Colors.red),
     ];
-    widgets
+    widget
     return Scaffold(
       appBar: AppBar(title: Text("Quiz app")),
       body: Column(
