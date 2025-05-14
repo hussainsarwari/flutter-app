@@ -10,87 +10,90 @@ class App3 extends StatefulWidget {
 class _App3State extends State<App3> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Scaffold(
-        appBar: AppBar(title: Text("Quiz app")),
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Column(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                const SizedBox(height: 20.0),
-                Text("question", style: TextStyle(color: Colors.white)),
+    List<Icon> icons = [
+      Icon(Icons.check, color: Colors.green),
+      Icon(Icons.close, color: Colors.red),
+    ];
+    return Scaffold(
+      appBar: AppBar(title: Text("Quiz app")),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Column(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              const SizedBox(height: 20.0),
+              Text("question", style: TextStyle(color: Colors.white)),
 
-                const SizedBox(height: 20.0),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    ElevatedButton(
-                      onPressed: () {},
-                      style: ElevatedButton.styleFrom(
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10.0),
-                        ),
+              const SizedBox(height: 20.0),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  ElevatedButton(
+                    onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.green,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10.0),
                       ),
-                      child: Text("True"),
                     ),
-                    const SizedBox(width: 20.0),
-                    ElevatedButton(
-                      onPressed: () {},
-                      style: ElevatedButton.styleFrom(
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10.0),
-                        ),
+                    child: Text("True", style: TextStyle(color: Colors.white)),
+                  ),
+                  const SizedBox(width: 20.0),
+                  ElevatedButton(
+                    onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.red,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10.0),
                       ),
-                      child: Text("False"),
                     ),
-                  ],
-                ),
-                const SizedBox(height: 20.0),
-                Row(
-                  children: [
-                    Text("Answers:", style: TextStyle(color: Colors.white)),
-                  ],
-                ),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                OutlinedButton(
-                  style: OutlinedButton.styleFrom(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10.0),
-                    ),
+                    child: Text("False", style: TextStyle(color: Colors.white)),
                   ),
-                  onPressed: () {
-                    Navigator.pushNamed(context, '/Nextpage');
-                  },
-                  child: Text(
-                    "Previous page",
-                    style: TextStyle(color: Colors.white),
+                ],
+              ),
+              const SizedBox(height: 20.0),
+              Row(
+                children: [
+                  Text("Answers:", style: TextStyle(color: Colors.white)),
+                  const SizedBox(width: 20.0),
+                  Row(children: icons),
+                ],
+              ),
+            ],
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              OutlinedButton(
+                style: OutlinedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0),
                   ),
                 ),
-                const SizedBox(width: 20.0),
-                OutlinedButton(
-                  style: OutlinedButton.styleFrom(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10.0),
-                    ),
-                  ),
-                  onPressed: () {
-                    Navigator.pushNamed(context, '/App3');
-                  },
-                  child: Text(
-                    "Next page",
-                    style: TextStyle(color: Colors.white),
+                onPressed: () {
+                  Navigator.pushNamed(context, '/Nextpage');
+                },
+                child: Text(
+                  "Previous page",
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+              const SizedBox(width: 20.0),
+              OutlinedButton(
+                style: OutlinedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0),
                   ),
                 ),
-              ],
-            ),
-          ],
-        ),
+                onPressed: () {
+                  Navigator.pushNamed(context, '/App3');
+                },
+                child: Text("Next page", style: TextStyle(color: Colors.white)),
+              ),
+            ],
+          ),
+        ],
       ),
     );
   }
