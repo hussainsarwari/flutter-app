@@ -47,7 +47,7 @@ class _App3State extends State<App3> {
                     onPressed: () {
                       
                       setState(() {
-                        questionIndex +;
+                        questionIndex ++;
                         if (questionIndex >= questions.length) {
                           questionIndex = 0;
                         }
