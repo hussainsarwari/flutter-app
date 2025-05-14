@@ -43,7 +43,7 @@ class _App3State extends State<App3> {
                   ElevatedButton(
                     onPressed: () {
                       quistionIndex++;
-                      if()
+                      if(qu)
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.green,
