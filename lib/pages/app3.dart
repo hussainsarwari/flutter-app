@@ -32,7 +32,7 @@ class _App3State extends State<App3> {
             children: [
               const SizedBox(height: 20.0),
               Text("
-              q
+              
               ", style: TextStyle(color: Colors.white)),
 
               const SizedBox(height: 20.0),
