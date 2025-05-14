@@ -42,9 +42,7 @@ class _App3State extends State<App3> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      setState(() {
-                        questionIndex + 1;
-                      });
+                     
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.green,
