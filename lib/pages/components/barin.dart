@@ -1,6 +1,6 @@
 import 'questions.dart';
 class Brain {
-   List<Questions> questionList = [
+   List<Questions> _questionList = [
     Questions(question: "Is Flutter a UI toolkit?", answers: true),
     Questions(question: "Is Dart a programming language?", answers: true),
     Questions(question: "Is Flutter used for web development?", answers: true),
