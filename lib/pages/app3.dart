@@ -25,7 +25,7 @@ class _App3State extends State<App3> {
             children: [
               const SizedBox(height: 20.0),
               Text(
-                questionList[questionIndex].question,
+                brainquestionList[questionIndex].question,
                 style: TextStyle(color: Colors.white),
               ),
 
