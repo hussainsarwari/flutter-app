@@ -3,6 +3,6 @@ class Questions {
   bool answers;
   Questions({required q, required a}) {
     this.question = q;
-    thianswers = a;
+    thisanswers = a;
   }
 }
