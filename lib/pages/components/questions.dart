@@ -1,3 +1,4 @@
 class Questions {
-  String question
+  String question;
+  
 }
