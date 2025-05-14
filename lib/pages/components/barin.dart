@@ -9,7 +9,7 @@ class Brain {
   ];
  
 
-  getQuestion(questionIndex){
+  string getQuestion(questionIndex){
     return _questionList[questionIndex].question;
   }
   bool getAnswer(questionIndex){
