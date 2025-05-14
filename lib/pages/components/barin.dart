@@ -12,4 +12,5 @@ class Brain {
   getQuestion(){
     return _questionList[_questionIndex].question;
   }
+  
 }
