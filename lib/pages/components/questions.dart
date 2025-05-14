@@ -3,5 +3,6 @@ class Questions {
   bool answers;
   Questions({required q, required a}) {
     question = q;
+    
   }
 }
