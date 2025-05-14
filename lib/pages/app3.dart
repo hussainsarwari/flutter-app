@@ -14,7 +14,7 @@ class _App3State extends State<App3> {
       Icon(Icons.check, color: Colors.green),
       Icon(Icons.close, color: Colors.red),
     ];
-    List<String> questions
+    List<String> questions=[]
     return Scaffold(
       appBar: AppBar(title: Text("Quiz app")),
       body: Column(
