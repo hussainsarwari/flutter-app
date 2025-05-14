@@ -97,7 +97,7 @@ class _App3State extends State<App3> {
                 children: [
                   Text("Answers:", style: TextStyle(color: Colors.white)),
                   const SizedBox(width: 20.0),
-                  Row(children: Expanded(child: icons) icons),
+                  Row(children: Expanded(child: icons)),
                 ],
               ),
             ],
