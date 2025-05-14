@@ -64,7 +64,7 @@ class _App3State extends State<App3> {
                   const SizedBox(width: 20.0),
                   ElevatedButton(
                     onPressed: () {
-                      setSta
+                      setStae
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.red,
