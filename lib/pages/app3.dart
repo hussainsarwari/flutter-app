@@ -45,9 +45,8 @@ class _App3State extends State<App3> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      
                       setState(() {
-                        questionIndex ++;
+                        questionIndex++;
                         if (questionIndex >= questions.length) {
                           questionIndex = 0;
                         }
@@ -64,12 +63,12 @@ class _App3State extends State<App3> {
                   const SizedBox(width: 20.0),
                   ElevatedButton(
                     onPressed: () {
-                      setState((){
-                        questionIndex ++;
-                        if(questionIndex>=questions.length){
-                          questionIndex=0;
+                      setState(() {
+                        questionIndex++;
+                        if (questionIndex >= questions.length) {
+                          questionIndex = 0;
                         }
-                      })
+                      });
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.red,
