@@ -35,7 +35,7 @@ class _App3State extends State<App3> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      bool currentAnswer = brain.questionList[questionIndex].answers;
+                      bool currentAnswer = brain.;
                       if (currentAnswer) {
                         icons.add(Icon(Icons.check, color: Colors.green));
                       } else {
