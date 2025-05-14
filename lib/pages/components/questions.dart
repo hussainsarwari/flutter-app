@@ -1,5 +1,5 @@
 class Questions {
   String question;
   bool answers;
-  Questions({required this.})
+  Questions({required this.question})
 }
