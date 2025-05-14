@@ -1,7 +1,7 @@
 class Questions {
   String question;
   bool answers;
-  Questions({required q,  a}) {
+  Questions({required q, re a}) {
     question = q;
     answers = a;
   }
