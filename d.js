@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 console.log('Watching for file changes...');
 
 chokidar.watch('.', {
-  ignored: /(^|[\/\\])(\.git|\.dart_tool|build|node_modules)|/,
+  ignored: /(^|[\/\\])(\.git|\.dart_tool|build|node_modules)|.\/,
   persistent: true,
   ignoreInitial: true
 }).on('change', (path) => {
