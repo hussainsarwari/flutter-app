@@ -1,2 +1,2 @@
 import 'questions.dart';
-class Brain
+class Barin {}
