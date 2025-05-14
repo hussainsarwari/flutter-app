@@ -9,6 +9,6 @@ class Brain {
   ];
 
   getQuestion(){
-    return _questionList[ques];
+    return _questionList[question];
   }
 }
