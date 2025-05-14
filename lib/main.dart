@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'pages/prifile.dart';
 import 'pages/page2.dart';
+import 'pages/app3.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -18,9 +20,11 @@ class MyApp extends StatelessWidget {
       ),
       home: const Profile(),
       debugShowCheckedModeBanner: false,
+      initialRoute:'/profile',
       routes: {
         '/profile': (context) => const Profile(),
         '/Nextpage': (context) => const Nextpage(),
+        '/App3': (context) => const App3(),
       },
     );
   }
