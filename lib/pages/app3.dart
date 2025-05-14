@@ -45,9 +45,7 @@ class _App3State extends State<App3> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      setState(() {
-                        icons.add(Icon(Icons.check, color: Colors.green));
-                      });
+                      
                       use(() {
                         questionIndex = 2;
                         if (questionIndex >= questions.length) {
