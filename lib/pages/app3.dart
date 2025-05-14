@@ -15,7 +15,11 @@ class _App3State extends State<App3> {
       Icon(Icons.close, color: Colors.red),
     ];
     List<String> questions=[
-      
+      "Is Flutter a UI toolkit?",
+      "Is Dart a programming language?",
+      "Is Flutter used for web development?",
+      "Is Flutter only for mobile apps?",
+      "Is Flutter open-source?",
     ]
     return Scaffold(
       appBar: AppBar(title: Text("Quiz app")),
