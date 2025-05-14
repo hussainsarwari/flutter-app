@@ -3,7 +3,7 @@ import 'pages/prifile.dart';
 import 'pages/page2.dart';
 import 'pages/app3.dart';
 
-d
+
 void main() {
   runApp(const MyApp());
 }
