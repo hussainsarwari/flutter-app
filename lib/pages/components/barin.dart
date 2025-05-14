@@ -15,7 +15,7 @@ class Brain {
   getAnswer(questionIndex){
     return _questionList[questionIndex].answers;
   }
-  getquestionL(){
+  getquestionLe(){
     return _questionList.length;
   }
 }
