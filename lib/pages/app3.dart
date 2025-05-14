@@ -67,7 +67,7 @@ class _App3State extends State<App3> {
                       setState((){
                         questionIndex ++;
                         if(questionIndex>=questions.length){
-                          
+                          ques
                         }
                       })
                     },
