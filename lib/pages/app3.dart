@@ -48,7 +48,7 @@ class _App3State extends State<App3> {
                     onPressed: () {
                       bool currentAnswer = answers[questionIndex];
                       if(currentAnswer){
-                        icons.add(Icon(Icons.check,color:Colors.green))
+                        icons.add(Icon(Icons.check,color:Colors.green));
                       }
                       else{
                         icons.add(Icon(Icons.close,color:Colors.red));
