@@ -20,7 +20,7 @@ class _App3State extends State<App3> {
       "Is Flutter used for web development?",
       "Is Flutter only for mobile apps?",
       "Is Flutter open-source?",
-    ]
+    ];
     return Scaffold(
       appBar: AppBar(title: Text("Quiz app")),
       body: Column(
