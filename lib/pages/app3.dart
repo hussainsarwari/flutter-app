@@ -11,8 +11,6 @@ class App3 extends StatefulWidget {
 
 class _App3State extends State<App3> {
   List<Icon> icons = [
-    Icon(Icons.check, color: Colors.green),
-    Icon(Icons.close, color: Colors.red),
   ];
   List<String> questions = [
     "Is Flutter a UI toolkit?",
