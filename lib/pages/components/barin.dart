@@ -12,7 +12,7 @@ class Brain {
   getQuestion(questionIndex){
     return _questionList[questionIndex].question;
   }
-  boo getAnswer(questionIndex){
+  bool getAnswer(questionIndex){
     return _questionList[questionIndex].answers;
   }
   getquestionLength(){
