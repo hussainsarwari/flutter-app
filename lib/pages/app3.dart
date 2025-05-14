@@ -12,7 +12,13 @@ class _App3State extends State<App3> {
   List<Icon> icons = [];
  
   int questionIndex = 0;
- 
+  List<Questions> questionList = [
+    Questions(question: "Is Flutter a UI toolkit?", answers: true),
+    Questions(question: "Is Dart a programming language?", answers: true),
+    Questions(question: "Is Flutter used for web development?", answers: true),
+    Questions(question: "Is Flutter only for mobile apps?", answers: false),
+    Questions(question: "Is Flutter open-source?", answers: true),
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
