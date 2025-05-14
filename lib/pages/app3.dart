@@ -31,8 +31,7 @@ class _App3State extends State<App3> {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               const SizedBox(height: 20.0),
-              Text("
-, style: TextStyle(color: Colors.white)),
+              Text(, style: TextStyle(color: Colors.white)),
 
               const SizedBox(height: 20.0),
               Row(
