@@ -10,13 +10,7 @@ class App3 extends StatefulWidget {
 
 class _App3State extends State<App3> {
   List<Icon> icons = [];
-  List<String> questions = [
-    "Is Flutter a UI toolkit?",
-    "Is Dart a programming language?",
-    "Is Flutter used for web development?",
-    "Is Flutter only for mobile apps?",
-    "Is Flutter open-source?",
-  ];
+ 
   int questionIndex = 0;
   List<Questions> questionList = [
     Questions(question: "Is Flutter a UI toolkit?", answers: true),
