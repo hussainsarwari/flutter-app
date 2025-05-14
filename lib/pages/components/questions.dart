@@ -1,4 +1,4 @@
 class Questions {
   String question;
-  bool 
+  bool answers;
 }
