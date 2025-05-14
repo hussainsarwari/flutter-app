@@ -47,9 +47,10 @@ class _App3State extends State<App3> {
                   ElevatedButton(
                     onPressed: () {
                       bool currentAnswer = answers[questionIndex];
+                      
                       setState(() {
                         questionIndex++;
-                        
+
                         if (questionIndex >= questions.length) {
                           questionIndex = 0;
                         }
