@@ -10,8 +10,7 @@ class App3 extends StatefulWidget {
 }
 
 class _App3State extends State<App3> {
-  List<Icon> icons = [
-  ];
+  List<Icon> icons = [];
   List<String> questions = [
     "Is Flutter a UI toolkit?",
     "Is Dart a programming language?",
@@ -55,7 +54,7 @@ class _App3State extends State<App3> {
 
                         if (questionIndex >= questions.length) {
                           questionIndex = 0;
-                          icons.clear()
+                          icons.clear();
                         }
                       });
                     },
@@ -98,8 +97,7 @@ class _App3State extends State<App3> {
                 children: [
                   Text("Answers:", style: TextStyle(color: Colors.white)),
                   const SizedBox(width: 20.0),
-                  Expanded(child:  Row(children:  icons))
-                 
+                  Expanded(child: Row(children: icons)),
                 ],
               ),
             ],
