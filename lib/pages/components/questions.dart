@@ -3,6 +3,6 @@ class Questions {
   bool answers;
   Questions({required this.question, required this.answers}) {
     this.question = question;
-    this.answers
+    this.answers = answers;
   }
 }
