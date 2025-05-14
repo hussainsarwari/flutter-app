@@ -67,7 +67,7 @@ class _App3State extends State<App3> {
                   const SizedBox(width: 20.0),
                   ElevatedButton(
                     onPressed: () {
-                      bool currentAnswer = questionIndex[questionIndex].answers;
+                      bool currentAnswer = question[questionIndex].answers;
                       if (currentAnswer) {
                         icons.add(Icon(Icons.check, color: Colors.green));
                       } else {
