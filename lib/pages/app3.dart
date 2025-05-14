@@ -10,20 +10,19 @@ class App3 extends StatefulWidget {
 }
 
 class _App3State extends State<App3> {
-   List<Icon> icons = [
-      Icon(Icons.check, color: Colors.green),
-      Icon(Icons.close, color: Colors.red),
-    ];
-    List<String> questions = [
-      "Is Flutter a UI toolkit?",
-      "Is Dart a programming language?",
-      "Is Flutter used for web development?",
-      "Is Flutter only for mobile apps?",
-      "Is Flutter open-source?",
-    ];
-    int questionIndex = 0;
-   
-  
+  List<Icon> icons = [
+    Icon(Icons.check, color: Colors.green),
+    Icon(Icons.close, color: Colors.red),
+  ];
+  List<String> questions = [
+    "Is Flutter a UI toolkit?",
+    "Is Dart a programming language?",
+    "Is Flutter used for web development?",
+    "Is Flutter only for mobile apps?",
+    "Is Flutter open-source?",
+  ];
+  int questionIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,12 +45,11 @@ class _App3State extends State<App3> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      useState((){
-
-                      questionIndex=2;
-                      if (questionIndex >= questions.length) {
-                        questionIndex = 0;
-                      }
+                      useState(() {
+                        questionIndex = 2;
+                        if (questionIndex >= questions.length) {
+                          questionIndex = 0;
+                        }
                       });
                     },
                     style: ElevatedButton.styleFrom(
