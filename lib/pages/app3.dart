@@ -79,7 +79,7 @@ class _App3State extends State<App3> {
                         questionIndex++;
                         if (questionIndex >= questions.length) {
                           questionIndex = 0;
-                          icons.clear()
+                          icons.clear();
                         }
                       });
                     },
