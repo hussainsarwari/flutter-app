@@ -18,7 +18,6 @@ class _App3State extends State<App3> {
     "Is Flutter open-source?",
   ];
   int questionIndex = 0;
-  List<bool> answers = [true, true, true, false, true];
   List<Questions> questionList = [
     Questions(question: "Is Flutter a UI toolkit?", answers: true),
     Questions(question: "Is Dart a programming language?", answers: true),
