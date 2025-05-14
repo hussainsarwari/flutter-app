@@ -21,7 +21,7 @@ class _App3State extends State<App3> {
       "Is Flutter only for mobile apps?",
       "Is Flutter open-source?",
     ];
-    int in
+    int index
     return Scaffold(
       appBar: AppBar(title: Text("Quiz app")),
       body: Column(
