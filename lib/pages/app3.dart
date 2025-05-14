@@ -47,11 +47,10 @@ class _App3State extends State<App3> {
                   ElevatedButton(
                     onPressed: () {
                       bool currentAnswer = answers[questionIndex];
-                      if(currentAnswer){
-                        icons.add(Icon(Icons.check,color:Colors.green));
-                      }
-                      else{
-                        icons.add(Icon(Icons.close,color:Colors.red));
+                      if (currentAnswer) {
+                        icons.add(Icon(Icons.check, color: Colors.green));
+                      } else {
+                        icons.add(Icon(Icons.close, color: Colors.red));
                       }
                       setState(() {
                         questionIndex++;
@@ -72,12 +71,11 @@ class _App3State extends State<App3> {
                   const SizedBox(width: 20.0),
                   ElevatedButton(
                     onPressed: () {
-                       bool currentAnswer = answers[questionIndex];
-                      if(currentAnswer){
-                        icons.add(Icon(Icons.check,color:Colors.green));
-                      }
-                      else{
-                        icons.add(Icon(Icons.close,color:Colors.red));
+                      bool currentAnswer = answers[questionIndex];
+                      if (currentAnswer) {
+                        icons.add(Icon(Icons.check, color: Colors.green));
+                      } else {
+                        icons.add(Icon(Icons.close, color: Colors.red));
                       }
                       setState(() {
                         questionIndex++;
